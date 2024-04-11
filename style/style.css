@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  display: flex;
+}
+
+.border-red {
+  border: 2px solid red;
+}
+:focus.border-red {
+  border: 2px solid red;
+}
+
+.border-green {
+  border: 2px solid green;
+}
+:focus.border-green {
+  border: 2px solid green;
+}
+
+div > div {
+  width: 200px;
+  height: 20px;
+  border: rgba(0, 0, 0, 0.438) 2px solid;
+}
+
+.continer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
